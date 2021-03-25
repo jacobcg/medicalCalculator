@@ -1,0 +1,64 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="medicalCalc.js"></script>
+        <title>Medical Calculator</title>
+    </head>
+    <body>
+        <header>
+            <h1>Medical Calculator for Patient Data</h1>
+        </header>
+        <div id="bloodPressure">
+            <div id="bpTableDiv">
+                <h2>Blood Pressure Readings</h2>
+                <table id="bpTable">
+                    <tr>
+                        <th>SysBP</th>
+                        <th>DiaBP</th>
+                        <th>Date</th>
+                    </tr>
+                </table>
+            </div>
+            <h2>Blood Pressure Calculation</h2>
+            <div id="bpResults">
+                <table>
+                </table>
+            </div>
+            <div id="bpForm">
+                <input id="sysBPInput" type="number" placeholder="SysBP Input">
+                <input id="diaBPInput" type="number" placeholder="DiaBP Input">
+                <input id="bpDateInput" type="date">
+                <button id="bpInput">INPUT</button>
+            </div>
+        </div>
+        
+        <div id="kidneyDisease">
+            <div id="kdTableDiv">
+                <h2>Kidney Disease Readings</h2>
+                <table id="kdTable">
+                    <tr>
+                        <th>eGFR</th>
+                        <th>Date</th>
+                    </tr>
+                </table>
+            </div>
+            <h2>Kidney Disease Calculation</h2>
+            <div id="kdResults">
+                <table>
+                </table>
+            </div>
+            <div id="kdForm">
+                <input id="eGFRInput" type="text" placeholder="eGFR Reading">
+                <input id="kdDateInput" type="date">
+                <button id="kdInput">INPUT</button>
+            </div>
+            <h2 id="dropHeader"></h2>
+            <div id="kdDrop">
+                <table id="kdDropTable">
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

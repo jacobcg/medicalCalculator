@@ -1,0 +1,58 @@
+body {
+    max-width:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body div {
+    width: 100%;
+}
+
+#bloodPressure, #kidneyDisease {
+    width: 100%;
+}
+
+#bpTableDiv, #kdTableDiv {
+    width: 50%;
+    float: left;
+}
+
+#bpTable, #kdTable {
+    width: 100%;
+}
+
+#bpForm, #kdForm {
+    width: 30%;
+}
+
+#bpResults>table, #kdResults>table, #bloodPressure>h2, #kidneyDisease>h2 {
+    width: 60%;
+    float: left;
+}
+
+.percentCell {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#dropHeader {
+    margin-top: 20px;
+}
+
+#kdDrop, #dropHeader {
+    align-self: flex-end;
+}
+
+table tr:nth-child(even) {
+    background-color: #1a242f;
+}
+
+table {
+    margin-bottom: 50px;
+}
+
+.errorHeader {
+    float: right;
+    color: crimson;
+}
